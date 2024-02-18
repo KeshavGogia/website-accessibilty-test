@@ -1,0 +1,21 @@
+{
+  "name": "website-accessibilty-test",
+  "version": "1.0.0",
+  "description": "A website accessibilty tester",
+  "type": "module",
+  "main": "index.js",
+  "scripts": {
+    "run" : "node index",
+    "dev" : "nodemon index"
+  },
+  "author": "Keshav",
+  "license": "ISC",
+  "dependencies": {
+    "dotenv": "^16.4.4",
+    "express": "^4.18.2",
+    "pa11y": "^7.0.0"
+  },
+  "devDependencies": {
+    "nodemon": "^3.0.3"
+  }
+}
